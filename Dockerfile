@@ -1,5 +1,5 @@
 # See https://hub.docker.com/_/wordpress/ for the latest
-FROM wordpress:5.3.2-php7.4-apache
+FROM wordpress:5.9.3-php7.4-apache
 
 EXPOSE 8080
 # Use the PORT environment variable in Apache configuration files.
